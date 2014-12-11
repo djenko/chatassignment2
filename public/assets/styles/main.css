@@ -1,0 +1,75 @@
+/* line 1, /home/ubuntu/workspace/sockets-boilerplate/src/assets/styles/index.sass */
+body {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+  font-family: 'calibri'; }
+  /* line 7, /home/ubuntu/workspace/sockets-boilerplate/src/assets/styles/index.sass */
+  body .wrapper {
+    width: 80%;
+    margin: 0 auto; }
+    /* line 11, /home/ubuntu/workspace/sockets-boilerplate/src/assets/styles/index.sass */
+    body .wrapper h1 {
+      color: white;
+      font-family: 'Calibri';
+      background-color: #2ecc71;
+      width: 380px;
+      padding: 10px 0 10px 10px;
+      margin-bottom: 0; }
+    /* line 19, /home/ubuntu/workspace/sockets-boilerplate/src/assets/styles/index.sass */
+    body .wrapper .messages {
+      float: left;
+      background-color: white;
+      border: none;
+      width: 380px;
+      min-height: 400px;
+      line-height: 200%;
+      padding: 20px 0 0 10px;
+      background-image: url("assets/images/symphony.png"); }
+    /* line 29, /home/ubuntu/workspace/sockets-boilerplate/src/assets/styles/index.sass */
+    body .wrapper #users {
+      font-size: 14px;
+      color: white;
+      width: 100px;
+      height: 410px;
+      line-height: 180%;
+      background-color: #34495e;
+      float: left;
+      padding: 10px 0 0 10px; }
+      /* line 39, /home/ubuntu/workspace/sockets-boilerplate/src/assets/styles/index.sass */
+      body .wrapper #users .title {
+        font-size: 20px; }
+  /* line 43, /home/ubuntu/workspace/sockets-boilerplate/src/assets/styles/index.sass */
+  body .wrapper2 {
+    clear: both;
+    width: 80%;
+    margin: 0 auto; }
+    /* line 48, /home/ubuntu/workspace/sockets-boilerplate/src/assets/styles/index.sass */
+    body .wrapper2 #messagebox {
+      float: left;
+      width: 360px;
+      height: 50px;
+      font-size: 14px;
+      line-height: 100%;
+      display: inline-block;
+      padding: 5px 15px;
+      border: none;
+      background-color: #ecf0f1; }
+    /* line 59, /home/ubuntu/workspace/sockets-boilerplate/src/assets/styles/index.sass */
+    body .wrapper2 #emoticonbox {
+      width: 105px;
+      height: 50px;
+      float: left;
+      padding: 5px 0 5px 5px;
+      background-color: #bdc3c7; }
+    /* line 66, /home/ubuntu/workspace/sockets-boilerplate/src/assets/styles/index.sass */
+    body .wrapper2 .sendbtn {
+      float: left;
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      line-height: 100%;
+      padding: 10px 60px;
+      border: none;
+      background-color: #f1c40f;
+      clear: both; }
