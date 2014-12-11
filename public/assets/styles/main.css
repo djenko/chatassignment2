@@ -73,3 +73,6 @@ body {
       border: none;
       background-color: #f1c40f;
       clear: both; }
+      /* line 77, /home/ubuntu/workspace/sockets-boilerplate/src/assets/styles/index.sass */
+      body .wrapper2 .sendbtn .dima {
+        background-color: red; }
